@@ -1,0 +1,9 @@
+{
+  "category.inspectability": "检视",
+  "key.inspectability.openiteminspector": "打开检视界面",
+
+  "tooltip.inspectability.move": "点击并拖拽来移动。",
+  "tooltip.inspectability.reposition": "右键点击来重新定位。",
+  "tooltip.inspectability.rotate": "左键点击来旋转。",
+  "tooltip.inspectability.zoom": "滚动鼠标滚轮来缩放。"
+}

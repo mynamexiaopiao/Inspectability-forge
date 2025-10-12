@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaopiao.inspectability.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "inspectability.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GuiMixin",
+    "HeldItemTransformMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
