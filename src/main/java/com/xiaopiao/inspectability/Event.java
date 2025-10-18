@@ -23,7 +23,7 @@ public class Event {
             Minecraft client = Minecraft.getInstance();
             while (inspectorKey != null && inspectorKey.consumeClick()) {
                 LocalPlayer player = client.player;
-                if (player != null) {
+                if (player != null && !player.getMainHandItem().isEmpty()) {
                     client.setScreen(new InspectorScreen());
                 }
             }
